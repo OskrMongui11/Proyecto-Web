@@ -1,0 +1,49 @@
+
+        body {
+            font-family:'Times New Roman', Times, serif;
+            background-color:black;
+        }
+        .contact-info {
+            background-color:orange;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            color:whitesmoke; 
+        }
+        .main {
+            margin: 15px;
+            color: whitesmoke;
+        }
+        .services {
+            display:grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 10px;
+            color: whitesmoke;
+        }
+        .footer {
+            background-color:orange;
+            text-align: center; 
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration:double;
+            background-color: #32323c;
+            color: white;
+            border-radius: 4px;
+            margin: 10px 2px;
+        }
+        .button:hover {
+            background-color: #dde2e8;
+        }
+       
+
