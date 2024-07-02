@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ver Procesos</title>
+</head>
+<body>
+    <h2>Mis Procesos</h2>
+    <ul>
+        {% for proceso in procesos %}
+            <li>{{ proceso.doc_online }} - {{ proceso.doc_fisico }} - {{ proceso.tipo_proceso }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
